@@ -31,7 +31,7 @@ Some real-world applications include
 
 ## Common Challenges
 
-Deep learning models require large amounts of data and computational resources. Training deep learning models can be expensive and time consuming.
+Deep learning models require large amounts of data and computational resources. Training deep learning models can be expensive and time-consuming.
 
 Other challenges include:
 - Overfitting
