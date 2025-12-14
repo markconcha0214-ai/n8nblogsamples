@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T16:30:12.525Z",
+    "source_file": "blog-post.md"
+  },
+  "qa_issues": [
+    {
+      "line_start": 3,
+      "line_end": 3,
+      "issue_type": "clarity",
+      "severity": "low",
+      "description": "The sentence is long and may be hard to read.",
+      "suggested_fix": "Consider breaking it into shorter sentences."
+    },
+    {
+      "line_start": 7,
+      "line_end": 7,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "'Its' should be 'It's' in 'Its a subset of artificial intelligence.'",
+      "suggested_fix": "Replace 'Its' with 'It's'."
+    },
+    {
+      "line_start": 11,
+      "line_end": 11,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "'It's' should be 'its' in 'Each type has it's own use cases.'",
+      "suggested_fix": "Replace 'it's' with 'its'."
+    },
+    {
+      "line_start": 29,
+      "line_end": 29,
+      "issue_type": "clarity",
+      "severity": "medium",
+      "description": "The sentence lists prerequisites in a long, unbroken string.",
+      "suggested_fix": "Consider using bullet points for each requirement."
+    },
+    {
+      "line_start": 49,
+      "line_end": 49,
+      "issue_type": "clarity",
+      "severity": "low",
+      "description": "The sentence is long and runs several ideas together.",
+      "suggested_fix": "Consider breaking it into separate sentences."
+    },
+    {
+      "line_start": 54,
+      "line_end": 54,
+      "issue_type": "consistency",
+      "severity": "low",
+      "description": "Inconsistent capitalization in bullet points.",
+      "suggested_fix": "Capitalize 'Ignoring' to match style."
+    },
+    {
+      "line_start": 67,
+      "line_end": 67,
+      "issue_type": "grammar",
+      "severity": "low",
+      "description": "'A exciting' should be 'An exciting'.",
+      "suggested_fix": "Replace 'A' with 'An'."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "replace",
+      "line_start": 3,
+      "line_end": 3,
+      "new_lines": [
+        "Machine learning is a complex and difficult topic that many people find challenging to understand and get started with. However, it doesn't have to be as hard as you might think, because there are many resources available."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 7,
+      "line_end": 7,
+      "new_lines": [
+        "Machine learning is when computers learn patterns from data. It's a subset of artificial intelligence. Machine learning algorithms can make predictions and decisions without being explicitly programmed for every scenario they encounter."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 11,
+      "line_end": 11,
+      "new_lines": [
+        "There is supervised learning, unsupervised learning, and reinforcement learning. Each type has its own use cases."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 29,
+      "line_end": 29,
+      "new_lines": [
+        "To get started with machine learning, you need to know the following:",
+        "- Python programming language",
+        "- Basic statistics",
+        "- Linear algebra",
+        "- Calculus"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 49,
+      "line_end": 49,
+      "new_lines": [
+        "Many beginners make the mistake of jumping straight into deep learning without understanding the basics. This can lead to confusion, frustration, and wasted time."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 54,
+      "line_end": 54,
+      "new_lines": [
+        "- Ignoring model validation"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 67,
+      "line_end": 67,
+      "new_lines": [
+        "Machine learning is an exciting field with lots of opportunities. With dedication and the right resources, anyone can learn it. Just start small and build your skills gradually over time with consistent practice."
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
