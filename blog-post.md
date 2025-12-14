@@ -1,14 +1,14 @@
 # Getting Started with Machine Learning in 2024
 
-Machine learning is a really complex and difficult topic that many people find challenging to understand and get started with, but it doesn't have to be as hard as you might think it is because there are many resources available.
+Machine learning is a complex and difficult topic that many people find challenging to understand and get started with. However, it doesn't have to be as hard as you might think, because there are many resources available.
 
 ## What is Machine Learning
 
-Machine learning is when computers learn patterns from data. Its a subset of artificial intelligence. Machine learning algorithms can make predictions and decisions without being explicitly programmed for every scenario they encounter.
+Machine learning is when computers learn patterns from data. It's a subset of artificial intelligence. Machine learning algorithms can make predictions and decisions without being explicitly programmed for every scenario they encounter.
 
 ### Types of Machine Learning
 
-There is supervised learning, unsupervised learning, and reinforcement learning. Each type has it's own use cases.
+There is supervised learning, unsupervised learning, and reinforcement learning. Each type has its own use cases.
 
 **Supervised Learning** - This is where you train models with labeled data
 **Unsupervised Learning** - Finding patterns in unlabeled data
@@ -26,7 +26,11 @@ Some key applications include:
 
 ### Getting Started
 
-To get started with machine learning you need to know python programming language and understand basic statistics and linear algebra and calculus.
+To get started with machine learning, you need to know the following:
+- Python programming language
+- Basic statistics
+- Linear algebra
+- Calculus
 
 Here's what you should learn first:
 
@@ -46,12 +50,12 @@ TensorFlow and PyTorch are the most popular frameworks. Scikit-learn is good for
 
 ## Common Mistakes
 
-Many beginners make the mistake of jumping straight into deep learning without understanding the basics which can lead to confusion and frustration and wasted time.
+Many beginners make the mistake of jumping straight into deep learning without understanding the basics. This can lead to confusion, frustration, and wasted time.
 
 Other mistakes:
 - Not cleaning data properly
 - Overfitting models
-- ignoring model validation
+- Ignoring model validation
 - Not understanding the problem domain
 
 ## Best Practices
@@ -64,7 +68,7 @@ Document your code and experiments so you can reproduce results later when you n
 
 ## Conclusion
 
-Machine learning is a exciting field with lots of opportunities. With dedication and the right resources, anyone can learn it. Just start small and build your skills gradually over time with consistent practice.
+Machine learning is an exciting field with lots of opportunities. With dedication and the right resources, anyone can learn it. Just start small and build your skills gradually over time with consistent practice.
 
 ## Resources
 
