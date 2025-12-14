@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T18:35:58.990Z",
+    "source_file": "botbot.md",
+    "source_sha": "63ea50212797a24b17d873f47aa59776e32280a8"
+  },
+  "qa_issues": [
+    {
+      "line_start": 3,
+      "line_end": 3,
+      "issue_type": "clarity",
+      "severity": "medium",
+      "description": "The sentence is overly complex and could be made clearer.",
+      "suggested_fix": "Consider breaking the sentence into two for better clarity."
+    },
+    {
+      "line_start": 5,
+      "line_end": 5,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "The heading should end with a question mark, not a period.",
+      "suggested_fix": "Change 'What is Deep Learning.' to 'What is Deep Learning?'"
+    },
+    {
+      "line_start": 13,
+      "line_end": 13,
+      "issue_type": "clarity",
+      "severity": "medium",
+      "description": "The list of types of neural networks is unclear due to lack of punctuation.",
+      "suggested_fix": "Consider adding commas between the types for clarity."
+    },
+    {
+      "line_start": 18,
+      "line_end": 18,
+      "issue_type": "consistency",
+      "severity": "medium",
+      "description": "The sentence is duplicated, which can confuse readers.",
+      "suggested_fix": "Remove the duplicate sentence."
+    },
+    {
+      "line_start": 21,
+      "line_end": 21,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "The sentence lacks a comma for proper punctuation.",
+      "suggested_fix": "Add a comma before 'and'."
+    },
+    {
+      "line_start": 36,
+      "line_end": 36,
+      "issue_type": "clarity",
+      "severity": "low",
+      "description": "The phrase 'training deep models' can be ambiguous.",
+      "suggested_fix": "Consider rephrasing to specify 'training deep learning models'."
+    },
+    {
+      "line_start": 46,
+      "line_end": 46,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "The phrase 'a exciting' contains a grammatical error.",
+      "suggested_fix": "Change 'a exciting' to 'an exciting'."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "replace",
+      "line_start": 3,
+      "line_end": 3,
+      "new_lines": [
+        "Deep learning is a very powerful approach in machine learning. Many people find it confusing and difficult to understand, especially when they first encounter it."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 5,
+      "line_end": 5,
+      "new_lines": [
+        "## What is Deep Learning?"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 13,
+      "line_end": 13,
+      "new_lines": [
+        "There are many types of neural networks, including convolutional neural networks, recurrent neural networks, and transformers."
+      ]
+    },
+    {
+      "op": "delete",
+      "line_start": 18,
+      "line_end": 18,
+      "new_lines": []
+    },
+    {
+      "op": "replace",
+      "line_start": 21,
+      "line_end": 21,
+      "new_lines": [
+        "Unsupervised learning finds patterns in data, without labels"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 36,
+      "line_end": 36,
+      "new_lines": [
+        "Deep learning models require large amounts of data and computational resources. Training deep learning models can be expensive and time consuming."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 46,
+      "line_end": 46,
+      "new_lines": [
+        "Deep learning is an exciting and rapidly evolving field. While it has challenges, its impact on technology continues to grow and expand."
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
