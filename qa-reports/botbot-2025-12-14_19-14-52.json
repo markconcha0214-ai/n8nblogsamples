@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T19:14:52.558Z",
+    "source_file": "botbot.md",
+    "source_sha": "00a717c927a5169a181f6d8916f966c1d3ccb875"
+  },
+  "qa_issues": [
+    {
+      "line_start": 34,
+      "line_end": 34,
+      "issue_type": "clarity",
+      "severity": "medium",
+      "description": "The phrase 'time consuming' should be hyphenated to 'time-consuming' for clarity and grammatical accuracy.",
+      "suggested_fix": "Change 'time consuming' to 'time-consuming'."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "replace",
+      "line_start": 34,
+      "line_end": 34,
+      "new_lines": [
+        "Deep learning models require large amounts of data and computational resources. Training deep learning models can be expensive and time-consuming."
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
