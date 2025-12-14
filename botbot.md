@@ -17,7 +17,7 @@ There are many types of neural networks, including convolutional neural networks
 Supervised learning is when models are trained on labeled data.
 
 Unsupervised learning finds patterns in data without labels.
-Reinforcement learning allows models to learn by interacting with an environment and receiving rewards or penalties
+Reinforcement learning allows models to learn by interacting with an environment and receiving rewards or penalties.
 
 ## Why Deep Learning Matters
 
