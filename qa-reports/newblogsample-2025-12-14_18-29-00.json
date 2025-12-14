@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T18:29:00.768Z",
+    "source_file": "newblogsample.md",
+    "source_sha": "d105b1ffc0d566c75302f873bebc81f143328277"
+  },
+  "qa_issues": [
+    {
+      "line_start": 13,
+      "line_end": 14,
+      "issue_type": "consistency",
+      "severity": "medium",
+      "description": "Duplicate description for Supervised Learning.",
+      "suggested_fix": "Remove one of the duplicate lines."
+    },
+    {
+      "line_start": 16,
+      "line_end": 17,
+      "issue_type": "consistency",
+      "severity": "medium",
+      "description": "Duplicate description for Unsupervised Learning.",
+      "suggested_fix": "Remove one of the duplicate lines."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "delete",
+      "line_start": 15,
+      "line_end": 15,
+      "new_lines": []
+    },
+    {
+      "op": "delete",
+      "line_start": 17,
+      "line_end": 17,
+      "new_lines": []
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
