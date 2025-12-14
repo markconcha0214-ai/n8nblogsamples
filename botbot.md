@@ -1,4 +1,5 @@
 # Deep Learning Overview 2024
+An Introduction to Its Concepts and Applications
 
 Deep learning is a very powerful approach in machine learning due to its ability to model complex patterns in large datasets and its success in applications such as image and speech recognition. Many people find it confusing and difficult to understand, especially when they first encounter it.
 
@@ -16,6 +17,7 @@ There are many types of neural networks, including convolutional neural networks
 
 Supervised learning is when models are trained on labeled data.
 
+For example, classifying emails as spam or not spam.
 Unsupervised learning finds patterns in data without labels.
 Reinforcement learning allows models to learn by interacting with an environment and receiving rewards or penalties.
 
