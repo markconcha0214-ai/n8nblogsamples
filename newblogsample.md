@@ -12,8 +12,6 @@ There are three main types of machine learning, each with its own use cases:
 
 **Supervised Learning**.
 Training models using labeled data. For example, email spam detection, where the model categorizes emails based on example inputs and labels.
-Training models using labeled data. For example, email spam detection, where the model categorizes emails based on example inputs and labels.
-Discovering patterns and structures in unlabeled data, such as customer segmentation in marketing, where the model identifies distinct customer groups.
 Discovering patterns and structures in unlabeled data, such as customer segmentation in marketing, where the model identifies distinct customer groups.
 Learning optimal actions through trial and error using rewards and penalties. It is often used in robotics and gaming, such as teaching an AI to play chess.
 ## Why Machine Learning Matters
