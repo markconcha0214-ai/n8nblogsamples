@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T17:04:58.352Z",
+    "source_file": "blog-post.md"
+  },
+  "qa_issues": [
+    {
+      "line_start": 3,
+      "line_end": 3,
+      "issue_type": "grammar",
+      "severity": "low",
+      "description": "The sentence is slightly awkward.",
+      "suggested_fix": "Consider: 'Although many people find it challenging to understand at first, with the right approach and resources, getting started with machine learning doesn't have to be overwhelming.'"
+    },
+    {
+      "line_start": 13,
+      "line_end": 13,
+      "issue_type": "structure",
+      "severity": "low",
+      "description": "Missing period at the end of the sentence.",
+      "suggested_fix": "Add a period at the end."
+    },
+    {
+      "line_start": 15,
+      "line_end": 15,
+      "issue_type": "structure",
+      "severity": "low",
+      "description": "Missing period at the end of the sentence.",
+      "suggested_fix": "Add a period at the end."
+    },
+    {
+      "line_start": 17,
+      "line_end": 17,
+      "issue_type": "structure",
+      "severity": "low",
+      "description": "Missing period at the end of the sentence.",
+      "suggested_fix": "Add a period at the end."
+    },
+    {
+      "line_start": 38,
+      "line_end": 42,
+      "issue_type": "consistency",
+      "severity": "low",
+      "description": "Inconsistent punctuation in list items. Some items end with periods, others do not.",
+      "suggested_fix": "Ensure all list items either have periods or do not."
+    },
+    {
+      "line_start": 59,
+      "line_end": 59,
+      "issue_type": "clarity",
+      "severity": "low",
+      "description": "The sentence assumes deep learning is the immediate goal, which may not fit all learners.",
+      "suggested_fix": "Clarify this sentence by acknowledging that deep learning may not be the reference point for all learners."
+    },
+    {
+      "line_start": 71,
+      "line_end": 71,
+      "issue_type": "tone",
+      "severity": "low",
+      "description": "The wording 'Garbage in, garbage out' is informal.",
+      "suggested_fix": "Consider a more formal phrasing, such as 'Incorrect input data leads to incorrect output results.'"
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "replace",
+      "line_start": 3,
+      "line_end": 3,
+      "new_lines": [
+        "Although many people find it challenging to understand at first, with the right approach and resources, getting started with machine learning doesn't have to be overwhelming."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 13,
+      "line_end": 13,
+      "new_lines": [
+        "**Supervised Learning**."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 15,
+      "line_end": 15,
+      "new_lines": [
+        "Training models using labeled data. For example, email spam detection, where the model categorizes emails based on example inputs and labels."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 17,
+      "line_end": 17,
+      "new_lines": [
+        "Discovering patterns and structures in unlabeled data, such as customer segmentation in marketing, where the model identifies distinct customer groups."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 38,
+      "line_end": 38,
+      "new_lines": [
+        "1. Python basics: Understanding syntax, functions, and libraries"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 39,
+      "line_end": 39,
+      "new_lines": [
+        "2. NumPy and Pandas libraries: Working with data structures and performing data analysis"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 40,
+      "line_end": 40,
+      "new_lines": [
+        "3. Basic statistics: Learning about data distributions, probability, and statistical tests"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 41,
+      "line_end": 41,
+      "new_lines": [
+        "4. Linear regression: Understanding relationships between variables and predicting outcomes"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 42,
+      "line_end": 42,
+      "new_lines": [
+        "5. Classification algorithms: Techniques for sorting data into categories, such as decision trees and support vector machines."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 59,
+      "line_end": 59,
+      "new_lines": [
+        "Many beginners jump straight into deep learning without fully understanding the broader concepts of machine learning. This often leads to confusion, frustration, and wasted time."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 71,
+      "line_end": 71,
+      "new_lines": [
+        "Remember: “Incorrect input data leads to incorrect output results.”"
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
