@@ -1,8 +1,8 @@
 # Deep Learning Overview 2024
 
-Deep learning is a very powerful approach in machine learning that many people find confusing and difficult to understand especially when they first encounter it.
+Deep learning is a very powerful approach in machine learning. Many people find it confusing and difficult to understand, especially when they first encounter it.
 
-## What is Deep Learning.
+## What is Deep Learning?
 
 Deep learning is a subset of machine learning. It uses neural networks with many layers to learn complex patterns in data. Deep learning models can automatically learn features from raw data without manual feature engineering.
 
@@ -10,15 +10,14 @@ Deep learning is a subset of machine learning. It uses neural networks with many
 
 Neural networks are inspired by the human brain. A neural network is made up of layers of neurons that process information. Each neuron receives inputs, applies weights, and produces an output.
 
-There are many types of neural networks including convolutional neural networks and recurrent neural networks and transformers.
+There are many types of neural networks, including convolutional neural networks, recurrent neural networks, and transformers.
 
 ### Types of Deep Learning
 
 Supervised learning is when models are trained on labeled data.
-Supervised learning is when models are trained on labeled data.
 
 Unsupervised learning finds patterns in data without labels
-
+Unsupervised learning finds patterns in data, without labels
 Reinforcement learning allows models to learn by interacting with an environment and receiving rewards or penalties
 
 ## Why Deep Learning Matters
@@ -33,7 +32,7 @@ Some real-world applications include
 
 ## Common Challenges
 
-Deep learning models require large amounts of data and computational resources. Training deep models can be expensive and time consuming.
+Deep learning models require large amounts of data and computational resources. Training deep learning models can be expensive and time consuming.
 
 Other challenges include:
 - Overfitting
@@ -43,4 +42,4 @@ Other challenges include:
 
 ## Conclusion
 
-Deep learning is a exciting and rapidly evolving field. While it has challenges, its impact on technology continues to grow and expand.
+Deep learning is an exciting and rapidly evolving field. While it has challenges, its impact on technology continues to grow and expand.
