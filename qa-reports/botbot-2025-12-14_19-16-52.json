@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T19:16:52.529Z",
+    "source_file": "botbot.md",
+    "source_sha": "1d15e8183d224853b01e134347807ddc523bfba5"
+  },
+  "qa_issues": [
+    {
+      "line_start": 1,
+      "line_end": 1,
+      "issue_type": "clarity",
+      "severity": "medium",
+      "description": "The title lacks specificity about the content and purpose of the blog post for readers unfamiliar with the topic.",
+      "suggested_fix": "Consider adding a subtitle that explains what aspect of deep learning is covered, such as 'An Introduction to Its Concepts and Applications'."
+    },
+    {
+      "line_start": 18,
+      "line_end": 18,
+      "issue_type": "consistency",
+      "severity": "medium",
+      "description": "The explanation of supervised learning does not provide an example, while other sections do provide examples, leading to inconsistency in detail.",
+      "suggested_fix": "Add an example to the supervised learning section, similar to how examples are included in unsupervised and reinforcement learning."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "insert_after",
+      "line_start": 1,
+      "line_end": 1,
+      "new_lines": [
+        "An Introduction to Its Concepts and Applications"
+      ]
+    },
+    {
+      "op": "insert_after",
+      "line_start": 18,
+      "line_end": 18,
+      "new_lines": [
+        "For example, classifying emails as spam or not spam."
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
