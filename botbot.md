@@ -1,6 +1,6 @@
 # Deep Learning Overview 2024
 
-Deep learning is a very powerful approach in machine learning. Many people find it confusing and difficult to understand, especially when they first encounter it.
+Deep learning is a very powerful approach in machine learning due to its ability to model complex patterns in large datasets and its success in applications such as image and speech recognition. Many people find it confusing and difficult to understand, especially when they first encounter it.
 
 ## What is Deep Learning?
 
