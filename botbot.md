@@ -16,8 +16,7 @@ There are many types of neural networks, including convolutional neural networks
 
 Supervised learning is when models are trained on labeled data.
 
-Unsupervised learning finds patterns in data without labels
-Unsupervised learning finds patterns in data, without labels
+Unsupervised learning finds patterns in data without labels.
 Reinforcement learning allows models to learn by interacting with an environment and receiving rewards or penalties
 
 ## Why Deep Learning Matters
@@ -27,7 +26,7 @@ Deep learning is used in many applications such as image recognition, speech rec
 Some real-world applications include
 - Image classification
 - Speech recognition  
-- Self driving cars
+- Self-driving cars
 - Medical image analysis
 
 ## Common Challenges
@@ -37,7 +36,7 @@ Deep learning models require large amounts of data and computational resources. 
 Other challenges include:
 - Overfitting
 - Lack of interpretability
-- Difficult debugging
+- Difficulty in debugging
 - Hyperparameter tuning
 
 ## Conclusion
