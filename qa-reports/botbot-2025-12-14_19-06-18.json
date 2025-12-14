@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "created_at": "2025-12-14T19:06:18.031Z",
+    "source_file": "botbot.md",
+    "source_sha": "ecf41067ecf85d3b954352cba18a7e6e2b6d868c"
+  },
+  "qa_issues": [
+    {
+      "line_start": 19,
+      "line_end": 19,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "Missing punctuation at the end of the sentence.",
+      "suggested_fix": ". "
+    },
+    {
+      "line_start": 20,
+      "line_end": 20,
+      "issue_type": "consistency",
+      "severity": "low",
+      "description": "Repetition of the line about unsupervised learning can cause confusion.",
+      "suggested_fix": "Combine this line with the previous one."
+    },
+    {
+      "line_start": 30,
+      "line_end": 30,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "Missing hyphen in compound adjective 'Self driving'.",
+      "suggested_fix": "Change to 'Self-driving'."
+    },
+    {
+      "line_start": 40,
+      "line_end": 40,
+      "issue_type": "grammar",
+      "severity": "medium",
+      "description": "Inconsistent verb form; should match 'Difficult' with an article or be changed to 'Difficulty in debugging'.",
+      "suggested_fix": "Change to 'Difficulty in debugging'."
+    }
+  ],
+  "patch_instructions": [
+    {
+      "op": "replace",
+      "line_start": 19,
+      "line_end": 20,
+      "new_lines": [
+        "Unsupervised learning finds patterns in data without labels."
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 30,
+      "line_end": 30,
+      "new_lines": [
+        "- Self-driving cars"
+      ]
+    },
+    {
+      "op": "replace",
+      "line_start": 40,
+      "line_end": 40,
+      "new_lines": [
+        "- Difficulty in debugging"
+      ]
+    }
+  ],
+  "patch_result": {
+    "summary": "Applied undefined, skipped undefined"
+  }
+}
